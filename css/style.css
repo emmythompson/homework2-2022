@@ -31,7 +31,7 @@ img{
 }
 
 div{
-    height: 100px;
+    min-height: 100px;
     padding: 20px;
     border: 3px solid #ffffff;
 }
@@ -42,27 +42,33 @@ div{
 }
 
 .red{
-    background: #ff0202;
+    background: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 3px;
-    border-left: 10px;
+    border-bottom: 3px solid #ffffff;
+    border-left: 10px solid #ffffff;
+    border-right: none;
+    border-top: none;
 }
 
 .blue{
     background: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-right: 10px;
-    border-bottom: 3px;
+    border-right: 10px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    border-left: none;
+    border-top: none;
 }
 
 .yellow{
     background: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 3px;
-    border-left: 10px;
+    border-bottom: 3px solid #ffffff;
+    border-left: 10px solid #ffffff;
+    border-right: none;
+    border-top: none;
 }
 
 .yellow p{
@@ -78,8 +84,10 @@ div{
     background: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 10px;
-    border-bottom: 3px;
+    border-right: 10px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    border-left: none;
+    border-top: none;
 }
 
 span{
@@ -89,7 +97,7 @@ span{
 }
 
 footer{
-    background: linear-gradient(#000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
+    background: linear-gradient(#000000 0%, #0000ff 25%, #0066ff 70%, #000000);
 }
 
 footer p{
